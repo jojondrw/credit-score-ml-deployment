@@ -1,5 +1,7 @@
 # Credit Score Classification: End-to-End ML Deployment
 
+**[Live demo](https://credit-score-ml-deployment-6uuvtwcot5ov2cycvvf4uh.streamlit.app/)** (Streamlit)
+
 A machine learning pipeline that predicts whether a customer's credit score is Good, Standard, or Poor from their financial profile. It runs two ways: locally with an OOP training pipeline, MLflow tracking, and a Streamlit app, and on AWS with the same model served as a live SageMaker endpoint behind a Streamlit app on EC2.
 
 I built it both ways on purpose, to see what actually changes when you move a model off your laptop and onto the cloud.
