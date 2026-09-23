@@ -14,7 +14,7 @@ Each customer has about 28 features: income, number of loans, delayed payments, 
 
 ## Dataset
 
-The course-provided credit dataset (`src/data_C.csv`, ~100k rows). It comes in messy on purpose: numbers stored as strings, junk placeholders like `_______` and `!@9#%8`, impossible values such as negative loan counts and ages over 100, and a `Type_of_Loan` column that packs several loans into one cell. All of it gets cleaned in `src/preprocessing.py`.
+The course-provided credit dataset (`src/data_C.csv`, 25,000 rows). It comes in messy on purpose: numbers stored as strings, junk placeholders like `_______` and `!@9#%8`, impossible values such as negative loan counts and ages over 100, and a `Type_of_Loan` column that packs several loans into one cell. All of it gets cleaned in `src/preprocessing.py`.
 
 ## Approach
 
